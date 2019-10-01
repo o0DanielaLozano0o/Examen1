@@ -271,6 +271,10 @@ a.button
     font-weight: 700;
     transition: all .2s linear;
 }
+a.button.garen{
+    color: #abaaa5;
+    border: 2px solid #abaaa5;
+}
 a.button:active
 {
     position: relative;
@@ -280,6 +284,11 @@ a.button:hover
 {
     color: white;
     background-color: #e54b76;
+}
+a.button.garen:hover
+{
+    color: white;
+    background-color: #abaaa5;
 }
 
 h1,h2,h3,h4,h5,h6
